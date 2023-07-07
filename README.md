@@ -2,6 +2,22 @@
 
 Teh Sims is a text-based simulation game where you observe a Sim character and their automatic actions as they fulfill their needs in a virtual world. The game provides a chat interface where you can follow the Sim's actions and end the chat when desired.
 
+## Philosophical Implications
+
+The automatic nature of Teh Sims raises interesting philosophical implications. It prompts reflection on the nature of agency and simulation. Observing the Sim's autonomous behavior can spark discussions on determinism, free will, and the boundaries of simulation in creating believable virtual experiences.
+
+## Novel Use Cases
+
+Beyond gaming, this type of chatbot interaction can be applied to various novel use cases. Some potential applications include:
+
+- Virtual Pet Companions: Creating virtual pets with autonomous behavior and needs, providing users with a sense of companionship and responsibility.
+- Educational Simulations: Designing interactive simulations where users can observe and learn from autonomous virtual characters in various educational settings.
+- Therapeutic Tools: Utilizing autonomous virtual characters in therapeutic contexts, such as mental health support or cognitive-behavioral therapy.
+
+The possibilities for novel use cases are vast, and this type of chatbot interaction opens up new avenues for exploration and innovation.
+
+![DreamShaper_v6_A_generic_sim_from_The_Sims_in_an_standing_in_a_1](https://github.com/EveryOneIsGross/tehSIMS/assets/23621140/8b28d40f-92c4-4f5e-b2ca-dee5e0915d5f)
+
 ## How to Play
 
 **Setup:**
@@ -66,19 +82,6 @@ Copy code
 
 3. To end the chat and the game, type "quit" when prompted.
 
-## Philosophical Implications
-
-The automatic nature of Teh Sims raises interesting philosophical implications. It prompts reflection on the nature of agency and simulation. Observing the Sim's autonomous behavior can spark discussions on determinism, free will, and the boundaries of simulation in creating believable virtual experiences.
-
-## Novel Use Cases
-
-Beyond gaming, this type of chatbot interaction can be applied to various novel use cases. Some potential applications include:
-
-- Virtual Pet Companions: Creating virtual pets with autonomous behavior and needs, providing users with a sense of companionship and responsibility.
-- Educational Simulations: Designing interactive simulations where users can observe and learn from autonomous virtual characters in various educational settings.
-- Therapeutic Tools: Utilizing autonomous virtual characters in therapeutic contexts, such as mental health support or cognitive-behavioral therapy.
-
-The possibilities for novel use cases are vast, and this type of chatbot interaction opens up new avenues for exploration and innovation.
 
 ## Acknowledgements
 
