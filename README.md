@@ -100,3 +100,117 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Enjoy observing and experiencing Teh Sims as you watch the Sim autonomously fulfill their needs in their tiny room.
+
+```
+The Sim is having a shower.
+
+Sim Stats:
+Hunger: 9
+Hygiene: 8
+Bladder: 7
+Energy: 9
+Social: 3
+Fun: 3
+Environment: 5
+Comfort: 10
+
+
+The Sim is making a phonecall.
+Telephone is ringing...
+Sim: Hello?
+User: how's your day been?
+Sim: My day has been wonderful! I started off with a refreshing shower that made me quite happy. Then, I 
+had a pleasant conversation on the phone which also boosted my mood. I'm currently feeling quite content. How about you?
+
+Current Sim needs:
+Hunger: 8
+Hygiene: 6        
+Bladder: 4        
+Energy: 5
+Social: 7
+Fun: 3
+Environment: 3    
+Comfort: 7        
+
+User: I feel ok. It's late for me so I should really go to bed.
+Sim: That sounds like a good idea! Rest is important for maintaining a good mood. I hope you have pleasant dreams. Don't forget to take care of your needs tomorrow. Good night!
+
+Current Sim needs:
+Hunger: 6
+Hygiene: 3
+Bladder: 3
+Energy: 3
+Social: 4
+Fun: 1
+Environment: 2
+Comfort: 4
+
+User: Goodnight my Sim friend.
+Sim: Goodnight! I had a wonderful day today. I'll make sure to take care of my needs before I go to sleep. Sweet dreams!
+
+Current Sim needs:
+Hunger: 5
+Hygiene: 2
+Bladder: 2
+Energy: 1
+Social: 1
+Fun: 0
+Environment: 2
+Comfort: 4
+
+The Sim needs fun.
+
+Sim Stats:
+Hunger: 5
+Hygiene: 2
+Bladder: 2
+Energy: 1
+Social: 1
+Fun: 0
+Environment: 2
+Comfort: 4
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is having a shower.
+
+Sim Stats:
+Hunger: 3
+Hygiene: 8
+Bladder: 2
+Energy: 0
+Social: 1
+Fun: 0
+Environment: 3
+Comfort: 6
+
+
+The Sim is going to sleep.
+
+Sim Stats:
+Hunger: 3
+Hygiene: 8
+Bladder: 2
+Energy: 10
+Social: 1
+Fun: 0
+Environment: 3
+Comfort: 10
+
+
+The Sim is watching TV.
+
+Sim Stats:
+Hunger: 3
+Hygiene: 8
+Bladder: 2
+Energy: 9
+Social: 1
+Fun: 3
+Environment: 4
+Comfort: 10
+
+
+Press Enter to proceed or type 'quit' to end the chat: quit
+The chat has ended.
