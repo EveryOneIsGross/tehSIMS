@@ -1,8 +1,10 @@
 # Teh Sims
 
+![DreamShaper_v6_A_generic_sim_from_The_Sims_in_an_standing_in_a_1](https://github.com/EveryOneIsGross/tehSIMS/assets/23621140/8b28d40f-92c4-4f5e-b2ca-dee5e0915d5f)
+
 Teh Sims is a text-based simulation game where you observe a Sim character and their automatic actions as they fulfill their needs in a virtual world. The game provides a chat interface where you can follow the Sim's actions and end the chat when desired. The script for "Teh Sims" incorporates unique logic to simulate the autonomous behavior of the Sim character and fulfill their needs in the virtual world. Here are some key aspects of the logic used:
 
-Sim Needs and Actions: The Sim has various needs, including hunger, hygiene, bladder, energy, social, fun, environment, and comfort. Each need has a value between 0 and 10, representing the Sim's level of satisfaction. The script autonomously chooses actions for the Sim based on their needs. For example, if the Sim is hungry, they will use the fridge to grab something to eat, and if they need to socialize, they will make a phone call.
+**Sim Needs and Actions: The Sim has various needs, including hunger, hygiene, bladder, energy, social, fun, environment, and comfort. Each need has a value between 0 and 10, representing the Sim's level of satisfaction. The script autonomously chooses actions for the Sim based on their needs. For example, if the Sim is hungry, they will use the fridge to grab something to eat, and if they need to socialize, they will make a phone call.
 
 Reducing Needs: The script includes a mechanism to gradually reduce the Sim's needs over time. The reduce_needs() method is called periodically, randomly reducing the Sim's needs by a certain amount. This ensures that the Sim's needs are not constantly at their maximum value and creates a sense of progression in the game.
 
@@ -14,7 +16,6 @@ Telephone Call Interaction: The script introduces a telephone call interaction w
 
 The unique logic implemented in the script enables the Sim to autonomously navigate the virtual world, fulfill their needs, and interact with the environment. The gradual reduction of needs, intelligent action selection, and journal tracking contribute to a dynamic and engaging gameplay experience.
 
-![DreamShaper_v6_A_generic_sim_from_The_Sims_in_an_standing_in_a_1](https://github.com/EveryOneIsGross/tehSIMS/assets/23621140/8b28d40f-92c4-4f5e-b2ca-dee5e0915d5f)
 
 ## How to Play
 
