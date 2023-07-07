@@ -4,15 +4,18 @@
 
 Teh Sims is a text-based simulation game where you observe a Sim character and their automatic actions as they fulfill their needs in a virtual world. The game provides a chat interface where you can follow the Sim's actions and end the chat when desired. The script for "Teh Sims" incorporates unique logic to simulate the autonomous behavior of the Sim character and fulfill their needs in the virtual world. Here are some key aspects of the logic used:
 
-**Sim Needs and Actions: The Sim has various needs, including hunger, hygiene, bladder, energy, social, fun, environment, and comfort. Each need has a value between 0 and 10, representing the Sim's level of satisfaction. The script autonomously chooses actions for the Sim based on their needs. For example, if the Sim is hungry, they will use the fridge to grab something to eat, and if they need to socialize, they will make a phone call.
+**Sim Needs and Actions:**
+The Sim has various needs, including hunger, hygiene, bladder, energy, social, fun, environment, and comfort. Each need has a value between 0 and 10, representing the Sim's level of satisfaction. The script autonomously chooses actions for the Sim based on their needs. For example, if the Sim is hungry, they will use the fridge to grab something to eat, and if they need to socialize, they will make a phone call.
 
-Reducing Needs: The script includes a mechanism to gradually reduce the Sim's needs over time. The reduce_needs() method is called periodically, randomly reducing the Sim's needs by a certain amount. This ensures that the Sim's needs are not constantly at their maximum value and creates a sense of progression in the game.
+**Reducing Needs:**
+The script includes a mechanism to gradually reduce the Sim's needs over time. The reduce_needs() method is called periodically, randomly reducing the Sim's needs by a certain amount. This ensures that the Sim's needs are not constantly at their maximum value and creates a sense of progression in the game.
 
-Choosing Actions: The Sim autonomously chooses actions based on their current needs. The choose_item() method selects an item or activity that corresponds to the Sim's most urgent need. However, if a need is already above a certain threshold (value 8 in the script), the Sim will re-evaluate their choice to avoid overindulging in a particular activity.
+**Choosing Actions:**
+The Sim autonomously chooses actions based on their current needs. The choose_item() method selects an item or activity that corresponds to the Sim's most urgent need. However, if a need is already above a certain threshold (value 8 in the script), the Sim will re-evaluate their choice to avoid overindulging in a particular activity.
 
-Journal and Mood Tracking: The script maintains a SimsJournal, which records the activities performed by the Sim throughout the game. Each day is represented by a dictionary entry, with activities and corresponding moods. The Sim's mood is calculated based on the total needs satisfaction, determining whether the Sim is happy or stressed.
+**Journal and Mood Tracking:** The script maintains a SimsJournal, which records the activities performed by the Sim throughout the game. Each day is represented by a dictionary entry, with activities and corresponding moods. The Sim's mood is calculated based on the total needs satisfaction, determining whether the Sim is happy or stressed.
 
-Telephone Call Interaction: The script introduces a telephone call interaction where the Sim engages in a conversation with an AI chatbot. This interaction utilizes OpenAI's GPT-3.5-turbo model to simulate a conversation. The Sim's current needs and activities for the day are included in the system message to provide context to the chatbot.
+**Telephone Call Interaction:** The script introduces a telephone call interaction where the Sim engages in a conversation with the user. This interaction utilizes OpenAI's GPT-3.5-turbo model to simulate a conversation. The Sim's current needs and activities for the day are included in the system message to provide context about the sims day.
 
 The unique logic implemented in the script enables the Sim to autonomously navigate the virtual world, fulfill their needs, and interact with the environment. The gradual reduction of needs, intelligent action selection, and journal tracking contribute to a dynamic and engaging gameplay experience.
 
