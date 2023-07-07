@@ -1,23 +1,20 @@
 # Teh Sims
 
-Teh Sims is a text-based simulation game where you observe a Sim character and their automatic actions as they fulfill their needs in a virtual world. The game provides a chat interface where you can follow the Sim's actions and end the chat when desired.
+Teh Sims is a text-based simulation game where you observe a Sim character and their automatic actions as they fulfill their needs in a virtual world. The game provides a chat interface where you can follow the Sim's actions and end the chat when desired. The script for "Teh Sims" incorporates unique logic to simulate the autonomous behavior of the Sim character and fulfill their needs in the virtual world. Here are some key aspects of the logic used:
+
+Sim Needs and Actions: The Sim has various needs, including hunger, hygiene, bladder, energy, social, fun, environment, and comfort. Each need has a value between 0 and 10, representing the Sim's level of satisfaction. The script autonomously chooses actions for the Sim based on their needs. For example, if the Sim is hungry, they will use the fridge to grab something to eat, and if they need to socialize, they will make a phone call.
+
+Reducing Needs: The script includes a mechanism to gradually reduce the Sim's needs over time. The reduce_needs() method is called periodically, randomly reducing the Sim's needs by a certain amount. This ensures that the Sim's needs are not constantly at their maximum value and creates a sense of progression in the game.
+
+Choosing Actions: The Sim autonomously chooses actions based on their current needs. The choose_item() method selects an item or activity that corresponds to the Sim's most urgent need. However, if a need is already above a certain threshold (value 8 in the script), the Sim will re-evaluate their choice to avoid overindulging in a particular activity.
+
+Journal and Mood Tracking: The script maintains a SimsJournal, which records the activities performed by the Sim throughout the game. Each day is represented by a dictionary entry, with activities and corresponding moods. The Sim's mood is calculated based on the total needs satisfaction, determining whether the Sim is happy or stressed.
+
+Telephone Call Interaction: The script introduces a telephone call interaction where the Sim engages in a conversation with an AI chatbot. This interaction utilizes OpenAI's GPT-3.5-turbo model to simulate a conversation. The Sim's current needs and activities for the day are included in the system message to provide context to the chatbot.
+
+The unique logic implemented in the script enables the Sim to autonomously navigate the virtual world, fulfill their needs, and interact with the environment. The gradual reduction of needs, intelligent action selection, and journal tracking contribute to a dynamic and engaging gameplay experience.
 
 ![DreamShaper_v6_A_generic_sim_from_The_Sims_in_an_standing_in_a_1](https://github.com/EveryOneIsGross/tehSIMS/assets/23621140/8b28d40f-92c4-4f5e-b2ca-dee5e0915d5f)
-
-## Philosophical Implications
-
-The automatic nature of Teh Sims raises interesting philosophical implications. It prompts reflection on the nature of agency and simulation. Observing the Sim's autonomous behavior can spark discussions on determinism, free will, and the boundaries of simulation in creating believable virtual experiences.
-
-## Novel Use Cases
-
-Beyond gaming, this type of chatbot interaction can be applied to various novel use cases. Some potential applications include:
-
-- Virtual Pet Companions: Creating virtual pets with autonomous behavior and needs, providing users with a sense of companionship and responsibility.
-- Educational Simulations: Designing interactive simulations where users can observe and learn from autonomous virtual characters in various educational settings.
-- Therapeutic Tools: Utilizing autonomous virtual characters in therapeutic contexts, such as mental health support or cognitive-behavioral therapy.
-
-The possibilities for novel use cases are vast, and this type of chatbot interaction opens up new avenues for exploration and innovation.
-
 
 ## How to Play
 
