@@ -46,6 +46,12 @@ The Sim's needs will gradually decrease over time. You can observe how the Sim's
 **Ending the Game:**
 You can end the chat at any time by typing "quit" when prompted. The game will display the final Sim stats and end the chat.
 
+## TODO:
+✅ Added basic logic from original game based on needs and advertising items.
+✅ Program runs and Sim retains knowledge of their day.
+❌ I NEED to add conversation recording with some analysis, keyword tracking so I don't feel so bad terminating the script.
+❌ Create a gradio interface that also tracks what the sim is doing using my gif_avatar method.
+
 ## Requirements
 
 - Python (version 3.7 or higher)
