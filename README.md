@@ -52,7 +52,7 @@ You can end the chat at any time by typing "quit" when prompted. The game will d
 
 ✅ Program runs and Sim retains knowledge of their day.
 
-❌ I NEED to add conversation recording with some analysis, keyword tracking so I don't feel so bad terminating the script.
+❌ I NEED to add conversation recording with some analysis, keyword tracking so I don't feel so bad terminating the script. 💀
 
 ❌ Create a gradio interface that also tracks what the sim is doing using my gif_avatar method.
 
