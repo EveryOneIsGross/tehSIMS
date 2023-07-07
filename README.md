@@ -59,15 +59,11 @@ You can end the chat at any time by typing "quit" when prompted. The game will d
 
 pip install openai dotenv
 
-sql
-Copy code
 
 3. Set up your environment variables. Create a file named `.env` in the project directory and add the following line:
 
 OPENAI_API_KEY=<your_openai_api_key>
 
-csharp
-Copy code
 
 Replace `<your_openai_api_key>` with your actual OpenAI API key.
 
@@ -92,4 +88,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Enjoy observing and experiencing Teh Sims as you watch the Sim autonomously fulfill their needs in the virtual world!
+Enjoy observing and experiencing Teh Sims as you watch the Sim autonomously fulfill their needs in their tiny room.
