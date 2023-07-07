@@ -77,9 +77,6 @@ Replace `<your_openai_api_key>` with your actual OpenAI API key.
 
 python teh_sims.py
 
-vbnet
-Copy code
-
 2. Follow the instructions displayed on the screen and observe the Sim's automatic actions through the chat interface.
 
 3. To end the chat and the game, type "quit" when prompted.
