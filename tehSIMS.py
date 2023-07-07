@@ -65,13 +65,13 @@ class simsRoom:
         }
 
     def use_fridge(self):
-        print("The Sim is using the fridge to grab something to eat.")
+        print("\nThe Sim is using the fridge to grab something to eat.")
         self.theSim.needs["hunger"] = min(10, self.theSim.needs["hunger"] + 8)
         self.theSim.needs["energy"] = max(0, self.theSim.needs["energy"] - 1)  # Deduct 1 energy
         self.update_journal("used fridge")  # Update journal
 
     def use_shower(self):
-        print("The Sim is having a shower.")
+        print("\nThe Sim is having a shower.")
         self.theSim.needs["hygiene"] = min(10, self.theSim.needs["hygiene"] + 8)
         self.theSim.needs["comfort"] = min(10, self.theSim.needs["comfort"] + 2)
         self.theSim.needs["environment"] = min(10, self.theSim.needs["environment"] + 1)
@@ -80,13 +80,13 @@ class simsRoom:
 
 
     def use_toilet(self):
-        print("The Sim is using the toilet.")
+        print("\nThe Sim is using the toilet.")
         self.theSim.needs["bladder"] = min(10, self.theSim.needs["bladder"] + 4)
         self.theSim.needs["energy"] = max(0, self.theSim.needs["energy"] - 1)  # Deduct 1 energy
         self.update_journal("used toilet")  # Update journal
 
     def use_bed(self):
-        print("The Sim is going to sleep.")
+        print("\nThe Sim is going to sleep.")
         self.theSim.needs["energy"] = min(10, self.theSim.needs["energy"] + 10)
         self.theSim.needs["comfort"] = min(10, self.theSim.needs["comfort"] + 10)
         self.update_journal("went to sleep")  # Update journal
@@ -144,7 +144,7 @@ class simsRoom:
                 self.theSim.print_needs()
                 print()
 
-            user_input = input("Press Enter to proceed or type 'quit' to end the chat: ")
+            user_input = input("\nPress Enter to proceed or type 'quit' to end the chat: ")
             if user_input.lower() == "quit":
                 break
 
@@ -160,6 +160,7 @@ class simsRoom:
                 if self.theSim.needs[chosen_item] > 8:
                     print(f"The Sim's {chosen_item} need is too high. Rechoosing item...")
                     chosen_item = self.theSim.choose_item()
+                #print(f"The Sim chooses to use {chosen_item}.")
                 self.needs_to_items[chosen_item]()
                 print("\nSim Stats:")
                 self.theSim.print_needs()
@@ -189,10 +190,11 @@ class TelephoneCall:
         print("Sim: Hello?")
         while True:
             user_input = input("User: ")
+            # Format the prompt in a more conversational way
             needs_str = ', '.join(f'{k} is at {v}' for k, v in self.sim.needs.items())
             prompt = f"Sim: My current needs are: {needs_str}.\nUser: {user_input}\n"
             response = openai_chat(prompt, self.sim.mood, self.sim.SimsJournal)  # Pass mood to openai_chat
-            print("Chatbot:", response)
+            print(response)
             self.sim.reduce_needs()
             print("\nCurrent Sim needs:")
             self.sim.print_needs()
@@ -206,13 +208,14 @@ class TelephoneCall:
                 print("The Sim hangs up the call.")
                 return
 
+            #print("The Sim returns to the chat room.")
 
 def openai_chat(prompt, mood, journal):
     temperature = 0.8 if mood == "satisfied" else 0.4  # Adjust temperature based on mood
     current_day = max(journal.keys())
     current_day_activities = ', '.join(f'{entry["activity"]} (mood: {entry["mood"]})' for entry in journal[current_day])  # Get all activities for the current day
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4",
         temperature=temperature,
         max_tokens=250,
         messages=[
