@@ -2,7 +2,7 @@
 
 ![DreamShaper_v6_A_generic_sim_from_The_Sims_in_an_standing_in_a_1](https://github.com/EveryOneIsGross/tehSIMS/assets/23621140/8b28d40f-92c4-4f5e-b2ca-dee5e0915d5f)
 
-Teh Sims is a text-based simulation game where you observe a "Sim" and their actions as they fulfill their needs in a virtual room. The game provides a chat interface where you can follow the Sim's actions and end the chat when desired. The script for "Teh Sims" incorporates unique logic to simulate the autonomous behavior of the Sim character and fulfill their needs in the virtual world. Here are some key aspects of the logic used:
+Teh Sims is a text-based simulation game where you observe a "Sim" and their actions as they fulfill their needs in a virtual room. The game provides a chat interface where you can follow the Sim's actions and end the chat when desired. The script for "Teh Sims" incorporates unique logic to simulate the autonomous behavior of the Sim character and fulfill their needs. Here are some key aspects of the logic used:
 
 **Sim Needs and Actions:**
 The Sim has various needs, including hunger, hygiene, bladder, energy, social, fun, environment, and comfort. Each need has a value between 0 and 10, representing the Sim's level of satisfaction. The script autonomously chooses actions for the Sim based on their needs. For example, if the Sim is hungry, they will use the fridge to grab something to eat, and if they need to socialize, they will make a phone call.
