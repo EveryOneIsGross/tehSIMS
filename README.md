@@ -2,6 +2,8 @@
 
 Teh Sims is a text-based simulation game where you observe a Sim character and their automatic actions as they fulfill their needs in a virtual world. The game provides a chat interface where you can follow the Sim's actions and end the chat when desired.
 
+![DreamShaper_v6_A_generic_sim_from_The_Sims_in_an_standing_in_a_1](https://github.com/EveryOneIsGross/tehSIMS/assets/23621140/8b28d40f-92c4-4f5e-b2ca-dee5e0915d5f)
+
 ## Philosophical Implications
 
 The automatic nature of Teh Sims raises interesting philosophical implications. It prompts reflection on the nature of agency and simulation. Observing the Sim's autonomous behavior can spark discussions on determinism, free will, and the boundaries of simulation in creating believable virtual experiences.
@@ -16,7 +18,6 @@ Beyond gaming, this type of chatbot interaction can be applied to various novel 
 
 The possibilities for novel use cases are vast, and this type of chatbot interaction opens up new avenues for exploration and innovation.
 
-![DreamShaper_v6_A_generic_sim_from_The_Sims_in_an_standing_in_a_1](https://github.com/EveryOneIsGross/tehSIMS/assets/23621140/8b28d40f-92c4-4f5e-b2ca-dee5e0915d5f)
 
 ## How to Play
 
