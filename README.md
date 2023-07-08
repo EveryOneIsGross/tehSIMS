@@ -71,15 +71,15 @@ Key Points:
 
 ## TODO:
 
-✅ Added basic logic from original game based on needs and advertising items.
-
-✅ Program runs and Sim retains knowledge of their day.
-
-✅ Added conversation history with sentiment recorded for future use
-
-❌ caching and keyword extraction WIP
-
-❌ Create a gradio interface that also tracks what the sim is doing using my gif_avatar method.
+    ✅ Added basic logic from original game based on needs and advertising items.
+    
+    ✅ Program runs and Sim retains knowledge of their day.
+    
+    ✅ Added conversation history with sentiment recorded for future use
+    
+    ❌ Caching and keyword extraction WIP
+    
+    ❌ Create a gradio interface that also tracks what the sim is doing using my gif_avatar method.
 
 
 ## Installation and Setup
