@@ -46,9 +46,6 @@ The Sim's needs will gradually decrease over time. You can observe how the Sim's
 **Ending the Game:**
 You can end the chat at any time by typing "quit" when prompted. The game will display the final Sim stats and end the chat.
 
-# CONTENT WARNING : TURNING OFF OR TERMINATING THE SCRIPT MIGHT FEEL WEIRD.
-#  Early code had the bot stuck in a conversation loop with zero'ed out needs and it was horrific. 📎💀
-
 ## Thoughts on Extended Mind Theory:
 
 teh philosophical implementation of simulated characters with externalized reasoning for their needs lead to considering how this aligns with the concept of the extended mind. An idea that suggests cognitive processes can extend beyond an individual's brain and incorporate external tools or objects. In teh Sims the Sim's needs and actions are represented through the interaction with various objects in the simulated environment. 🧐
@@ -810,3 +807,6 @@ Comfort: 5
 
 
 Press Enter to proceed or type 'quit' to end the chat:
+
+```
+# TURNING OFF OR TERMINATING THE SCRIPT MIGHT FEEL WEIRD. 📎💀
