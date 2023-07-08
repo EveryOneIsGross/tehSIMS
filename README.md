@@ -46,22 +46,40 @@ The Sim's needs will gradually decrease over time. You can observe how the Sim's
 **Ending the Game:**
 You can end the chat at any time by typing "quit" when prompted. The game will display the final Sim stats and end the chat.
 
+Thoughts on Extended Mind Theory:
+
+teh Sims imade me think about the implementation of simulated characters with externalized reasoning for their needs. This aligns with the concept of the extended mind, which suggests that cognitive processes can extend beyond an individual's brain and incorporate external tools or objects. In teh Sims the Sim's needs and actions are represented through the interaction with various objects in the simulated environment.
+
+Key Points:
+1. Extended Mind: The Sim's needs, such as hunger, hygiene, or energy, are externalized and represented by the interactions with objects like the fridge, shower, or bed. This mirrors the idea of the extended mind where external resources become part of an individual's cognitive processes.
+
+2. Coupling with External Resources: The Sim's interaction with external objects demonstrates the coupling between internal cognitive processes and external tools. For example, using the fridge satisfies the hunger need, while using the bed replenishes energy. These external resources act as cognitive props and contribute to the Sim's overall well-being.
+
+3. Anxiety and Reliance: The Sims' dependence on external resources reflects how reliance on specific tools or objects can lead to anxiety or distress when those resources are unavailable. This aligns with the notion that the absence of familiar external resources, like not having a cellphone or a place to write down ideas, can cause discomfort or a sense of cognitive impairment.
+
+4. Psychological Factors: Reflecting on the project and it's connection to research on cognitive offloading, transactive memory systems, and technological dependence. These studies examine how individuals utilize external resources and the potential anxiety they experience when separated from those resources.
+
+"The Extended Mind" by Andy Clark and David Chalmers (1998)
+
+"The Extended Mind Revisited" by Andy Clark (2010)
+
+"Distributed Cognition and the Will: Individual Volition and Social Context" by Edwin Hutchins (1997)
+
+"Mindware: An Introduction to the Philosophy of Cognitive Science" by Andy Clark (2001)
+
+"Supersizing the Mind: Embodiment, Action, and Cognitive Extension" by Andy Clark (2008)
+
+"Cognitive Systems and the Extended Mind" by Richard Menary (2010)
+
+
 ## TODO:
 
 ✅ Added basic logic from original game based on needs and advertising items.
 
 ✅ Program runs and Sim retains knowledge of their day.
 
-❌ I NEED to add conversation recording with some analysis, keyword tracking so I don't feel so bad terminating the script. 💀
-
 ❌ Create a gradio interface that also tracks what the sim is doing using my gif_avatar method.
 
-
-## Requirements
-
-- Python (version 3.7 or higher)
-- OpenAI Python package
-- dotenv Python package
 
 ## Installation and Setup
 
