@@ -58,18 +58,14 @@ Key Points:
 3. Anxiety and Reliance: The Sims' dependence on external resources reflects how reliance on specific tools or objects can lead to anxiety or distress when those resources are unavailable. This aligns with the notion that the absence of familiar external resources, like not having a cellphone or a place to write down ideas, can cause discomfort or a sense of cognitive impairment.
 
 4. Psychological Factors: Reflecting on the project and it's connection to research on cognitive offloading, transactive memory systems, and technological dependence. These studies examine how individuals utilize external resources and the potential anxiety they experience when separated from those resources.
-
+---
 "The Extended Mind" by Andy Clark and David Chalmers (1998)
-
 "The Extended Mind Revisited" by Andy Clark (2010)
-
 "Distributed Cognition and the Will: Individual Volition and Social Context" by Edwin Hutchins (1997)
-
 "Mindware: An Introduction to the Philosophy of Cognitive Science" by Andy Clark (2001)
-
 "Supersizing the Mind: Embodiment, Action, and Cognitive Extension" by Andy Clark (2008)
-
 "Cognitive Systems and the Extended Mind" by Richard Menary (2010)
+---
 
 
 ## TODO:
