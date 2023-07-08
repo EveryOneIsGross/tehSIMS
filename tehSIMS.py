@@ -3,6 +3,9 @@ import openai
 import dotenv
 import os
 import json
+import nltk
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+nltk.download('vader_lexicon')
 
 dotenv.load_dotenv()
 
@@ -183,18 +186,33 @@ class simsRoom:
 class TelephoneCall:
     def __init__(self, sim):
         self.sim = sim
+        self.conversation = []
+
+    def save_conversation(self):
+        try:
+            with open('conversation.json', 'r') as f:
+                existing_conversations = json.load(f)
+        except FileNotFoundError:
+            existing_conversations = []
+
+        existing_conversations.append(self.conversation)
+
+        with open('conversation.json', 'w') as f:
+            json.dump(existing_conversations, f, indent=4)
 
     def start_call(self):
-
         print("Telephone is ringing...")
         print("Sim: Hello?")
+        self.conversation.append({"role": "Sim", "content": "Hello?"})
         while True:
             user_input = input("User: ")
+            self.conversation.append({"role": "User", "content": user_input})
             # Format the prompt in a more conversational way
             needs_str = ', '.join(f'{k} is at {v}' for k, v in self.sim.needs.items())
             prompt = f"Sim: My current needs are: {needs_str}.\nUser: {user_input}\n"
             response = openai_chat(prompt, self.sim.mood, self.sim.SimsJournal)  # Pass mood to openai_chat
             print(response)
+            self.conversation.append({"role": "Sim", "content": response})
             self.sim.reduce_needs()
             print("\nCurrent Sim needs:")
             self.sim.print_needs()
@@ -203,11 +221,12 @@ class TelephoneCall:
             # Check if any of the Sim's needs have reached 0 before ending the call
             if lowest_need and self.sim.needs[lowest_need] < 1:
                 print(f"The Sim needs {lowest_need}.")
+                self.save_conversation()
                 return
             elif user_input.lower() == "hangup":
                 print("The Sim hangs up the call.")
+                self.save_conversation()
                 return
-
             #print("The Sim returns to the chat room.")
 
 def openai_chat(prompt, mood, journal):
@@ -223,7 +242,10 @@ def openai_chat(prompt, mood, journal):
             {"role": "user", "content": prompt},
         ],
     )
-    return response['choices'][0]['message']['content'].strip()
+    response_content = response['choices'][0]['message']['content'].strip()
+    sentiment_analyzer = SentimentIntensityAnalyzer()
+    sentiment = sentiment_analyzer.polarity_scores(response_content)
+    return response_content, sentiment
 
 def start_simulation():
 
@@ -232,4 +254,7 @@ def start_simulation():
     chat_room = simsRoom()
     chat_room.chat()
 
-start_simulation()
+start_simulation()    
+def save_conversation(self):
+        with open('conversation.json', 'w') as f:
+            json.dump(self.conversation, f, indent=4)
