@@ -46,9 +46,12 @@ The Sim's needs will gradually decrease over time. You can observe how the Sim's
 **Ending the Game:**
 You can end the chat at any time by typing "quit" when prompted. The game will display the final Sim stats and end the chat.
 
+# CONTENT WARNING : TURNING OFF OR TERMINATING THE SCRIPT MIGHT FEEL WEIRD.
+#  Early code had the bot stuck in a conversation loop with zero'ed out needs and it was horrific. 📎💀
+
 ## Thoughts on Extended Mind Theory:
 
-teh philosophical implementation of simulated characters with externalized reasoning for their needs lead to considering how this aligns with the concept of the extended mind. A idea that suggests cognitive processes can extend beyond an individual's brain and incorporate external tools or objects. In teh Sims the Sim's needs and actions are represented through the interaction with various objects in the simulated environment.
+teh philosophical implementation of simulated characters with externalized reasoning for their needs lead to considering how this aligns with the concept of the extended mind. An idea that suggests cognitive processes can extend beyond an individual's brain and incorporate external tools or objects. In teh Sims the Sim's needs and actions are represented through the interaction with various objects in the simulated environment. 🧐
 
 Key Points:
 1. Extended Mind: The Sim's needs, such as hunger, hygiene, or energy, are externalized and represented by the interactions with objects like the fridge, shower, or bed. This mirrors the idea of the extended mind where external resources become part of an individual's cognitive processes.
