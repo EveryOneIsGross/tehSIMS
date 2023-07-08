@@ -214,3 +214,574 @@ Comfort: 10
 
 Press Enter to proceed or type 'quit' to end the chat: quit
 The chat has ended.
+
+```
+```
+Welcome to Teh Sims
+Press Enter to start...
+Type 'quit' to end the chat.
+
+The Sim is using the fridge to grab something to eat.
+
+Sim Stats:
+Hunger: 10
+Hygiene: 10
+Bladder: 10
+Energy: 9
+Social: 10
+Fun: 10
+Environment: 10
+Comfort: 10
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is going to sleep.
+
+Sim Stats:
+Hunger: 9
+Hygiene: 9
+Bladder: 8
+Energy: 10
+Social: 9
+Fun: 7
+Environment: 7
+Comfort: 10
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is using the toilet.
+
+Sim Stats:
+Hunger: 8
+Hygiene: 7
+Bladder: 9
+Energy: 8
+Social: 6
+Fun: 6
+Environment: 6
+Comfort: 7
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is making a phonecall.
+Telephone is ringing...
+Sim: Hello?
+User: Hello
+Sim: Hello! How can I assist you today? I'm in a great mood and ready to chat.
+
+Current Sim needs:
+Hunger: 3
+Hygiene: 5
+Bladder: 3
+Energy: 5
+Social: 7
+Fun: 5
+Environment: 3
+Comfort: 4
+
+User: what have you done today?
+Sim: Today, I used the toilet and I was in a happy mood. I also talked on the phone which made me feel happy as well.
+
+Current Sim needs:
+Hunger: 2
+Hygiene: 3
+Bladder: 1
+Energy: 2
+Social: 5
+Fun: 4
+Environment: 0
+Comfort: 4
+
+The Sim needs environment.
+
+Sim Stats:
+Hunger: 2
+Hygiene: 3
+Bladder: 1
+Energy: 2
+Social: 5
+Fun: 4
+Environment: 0
+Comfort: 4
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is having a shower.
+
+Sim Stats:
+Hunger: 1
+Hygiene: 8
+Bladder: 1
+Energy: 1
+Social: 5
+Fun: 4
+Environment: 1
+Comfort: 6
+
+
+The Sim is using the fridge to grab something to eat.
+
+Sim Stats:
+Hunger: 9
+Hygiene: 8
+Bladder: 1
+Energy: 0
+Social: 5
+Fun: 4
+Environment: 1
+Comfort: 6
+
+
+The Sim is going to sleep.
+
+Sim Stats:
+Hunger: 9
+Hygiene: 8
+Bladder: 1
+Energy: 10
+Social: 5
+Fun: 4
+Environment: 1
+Comfort: 10
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is using the toilet.
+
+Sim Stats:
+Hunger: 7
+Hygiene: 5
+Bladder: 4
+Energy: 9
+Social: 5
+Fun: 4
+Environment: 1
+Comfort: 10
+
+
+The Sim is looking at the framed painting.
+
+Sim Stats:
+Hunger: 7
+Hygiene: 5
+Bladder: 4
+Energy: 8
+Social: 5
+Fun: 9
+Environment: 6
+Comfort: 10
+
+
+The Sim is using the toilet.
+
+Sim Stats:
+Hunger: 7
+Hygiene: 5
+Bladder: 8
+Energy: 7
+Social: 5
+Fun: 9
+Environment: 6
+Comfort: 10
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is making a phonecall.
+Telephone is ringing...
+Sim: Hello?
+User: What are you up to?
+Sim: Hello! I've been having a pretty good day so far. I've used the toilet twice, admired the beautiful painting in my room, and now I'm chatting with you on the phone. My mood is quite happy at the moment. How about you?
+
+Current Sim needs:
+Hunger: 2
+Hygiene: 1
+Bladder: 4
+Energy: 3
+Social: 5
+Fun: 8
+Environment: 0
+Comfort: 8
+
+The Sim needs environment.
+
+Sim Stats:
+Hunger: 2
+Hygiene: 1
+Bladder: 4
+Energy: 3
+Social: 5
+Fun: 8
+Environment: 0
+Comfort: 8
+
+
+The Sim is looking at the framed painting.
+
+Sim Stats:
+Hunger: 2
+Hygiene: 1
+Bladder: 4
+Energy: 2
+Social: 5
+Fun: 10
+Environment: 5
+Comfort: 8
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is having a shower.
+
+Sim Stats:
+Hunger: 1
+Hygiene: 8
+Bladder: 4
+Energy: 1
+Social: 5
+Fun: 10
+Environment: 6
+Comfort: 10
+
+
+The Sim is using the fridge to grab something to eat.
+
+Sim Stats:
+Hunger: 9
+Hygiene: 8
+Bladder: 4
+Energy: 0
+Social: 5
+Fun: 10
+Environment: 6
+Comfort: 10
+
+
+The Sim is going to sleep.
+
+Sim Stats:
+Hunger: 9
+Hygiene: 8
+Bladder: 4
+Energy: 10
+Social: 5
+Fun: 10
+Environment: 6
+Comfort: 10
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is using the toilet.
+
+Sim Stats:
+Hunger: 6
+Hygiene: 7
+Bladder: 7
+Energy: 8
+Social: 3
+Fun: 7
+Environment: 3
+Comfort: 9
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is making a phonecall.
+Telephone is ringing...
+Sim: Hello?
+User: What have you been up to? How has this affected your world view
+Sim: Today has been quite a pleasant day! I used the toilet, which was a relief and made me happy. Then I had a delightful conversation on the phone. It's always enjoyable to connect with others. These experiences have reminded me of the importance of taking care of my basic needs and maintaining social connections. It's also made me realize that even the simplest activities can bring joy. As for my environment, it could use a bit of sprucing up. The painting on the wall does add a nice touch, but perhaps some additional decorations would make the space even more enjoyable.
+
+Current Sim needs:
+Hunger: 2
+Hygiene: 1
+Bladder: 2
+Energy: 5
+Social: 4
+Fun: 4
+Environment: 0
+Comfort: 7
+
+The Sim needs environment.
+
+Sim Stats:
+Hunger: 2
+Hygiene: 1
+Bladder: 2
+Energy: 5
+Social: 4
+Fun: 4
+Environment: 0
+Comfort: 7
+
+
+The Sim is looking at the framed painting.
+
+Sim Stats:
+Hunger: 2
+Hygiene: 1
+Bladder: 2
+Energy: 4
+Social: 4
+Fun: 9
+Environment: 5
+Comfort: 7
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is using the fridge to grab something to eat.
+
+Sim Stats:
+Hunger: 8
+Hygiene: 1
+Bladder: 2
+Energy: 3
+Social: 4
+Fun: 9
+Environment: 5
+Comfort: 7
+
+
+The Sim is having a shower.
+
+Sim Stats:
+Hunger: 8
+Hygiene: 9
+Bladder: 2
+Energy: 2
+Social: 4
+Fun: 9
+Environment: 6
+Comfort: 9
+
+
+The Sim is using the toilet.
+
+Sim Stats:
+Hunger: 8
+Hygiene: 9
+Bladder: 6
+Energy: 1
+Social: 4
+Fun: 9
+Environment: 6
+Comfort: 9
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is going to sleep.
+
+Sim Stats:
+Hunger: 6
+Hygiene: 6
+Bladder: 4
+Energy: 10
+Social: 4
+Fun: 9
+Environment: 6
+Comfort: 10
+
+
+The Sim is using the toilet.
+
+Sim Stats:
+Hunger: 6
+Hygiene: 6
+Bladder: 8
+Energy: 9
+Social: 4
+Fun: 9
+Environment: 6
+Comfort: 10
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is making a phonecall.
+Telephone is ringing...
+Sim: Hello?
+User: How's your day been, any new thoughts?
+Sim: Sul Sul! My day has been quite pleasant, thank you for asking. I've been in a happy mood all day. I spent some time on the phone which was enjoyable. I also had a moment of peace when I used the toilet. As for new thoughts, I've been contemplating the painting in my room. It's quite fascinating. How about you?
+
+Current Sim needs:
+Hunger: 3
+Hygiene: 2
+Bladder: 6
+Energy: 4
+Social: 3
+Fun: 8
+Environment: 4
+Comfort: 8
+
+User: I have also been contemplating in my room.
+Sim: That's great! Contemplating can help clear the mind and focus on what's important. My room is quite comfortable and has everything I need. I've used the toilet and talked on the phone today, and I'm feeling happy. How about you? How was your day?
+
+Current Sim needs:
+Hunger: 1
+Hygiene: 0
+Bladder: 6
+Energy: 4
+Social: 3
+Fun: 8
+Environment: 4
+Comfort: 8
+
+The Sim needs hygiene.
+
+Sim Stats:
+Hunger: 1
+Hygiene: 0
+Bladder: 6
+Energy: 4
+Social: 3
+Fun: 8
+Environment: 4
+Comfort: 8
+
+
+The Sim is having a shower.
+
+Sim Stats:
+Hunger: 1
+Hygiene: 8
+Bladder: 6
+Energy: 3
+Social: 3
+Fun: 8
+Environment: 5
+Comfort: 10
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is using the fridge to grab something to eat.
+
+Sim Stats:
+Hunger: 8
+Hygiene: 8
+Bladder: 6
+Energy: 2
+Social: 3
+Fun: 8
+Environment: 5
+Comfort: 10
+
+
+The Sim is going to sleep.
+
+Sim Stats:
+Hunger: 8
+Hygiene: 8
+Bladder: 6
+Energy: 10
+Social: 3
+Fun: 8
+Environment: 5
+Comfort: 10
+
+
+The Sim is making a phonecall.
+Telephone is ringing...
+Sim: Hello?
+User: What's changed since last we spoke?
+Sim: Hello! Since we last spoke, I've been keeping myself busy and maintaining my needs well. I've been chatting on the phone which has kept my social and fun levels high. My environment could use a bit of improvement, but overall, I'm feeling quite happy.
+
+Current Sim needs:
+Hunger: 5
+Hygiene: 7
+Bladder: 3
+Energy: 7
+Social: 7
+Fun: 9
+Environment: 4
+Comfort: 7
+
+User: That's great. I am thinking of adding more memory tracking for you, as well as some additional sentiment analysis and keyword tracking. Would you like that?
+Sim: WooHoo! That sounds like a fantastic idea! It would definitely improve my overall performance and make my interactions more efficient. I'm all for it!
+
+Current Sim needs:
+Hunger: 2
+Hygiene: 5
+Bladder: 2
+Energy: 6
+Social: 5
+Fun: 7
+Environment: 3
+Comfort: 5
+
+User: How much context do you think you'll need?
+Sim: As a Sim, I don't require much context. I base my actions on my current needs and mood. Right now, I'm feeling happy and my needs are fairly balanced. I could use some food and a trip to the toilet, though. Would you like me to do something specific?
+
+Current Sim needs:
+Hunger: 0
+Hygiene: 5
+Bladder: 2
+Energy: 6
+Social: 5
+Fun: 7
+Environment: 3
+Comfort: 5
+
+The Sim needs hunger.
+
+Sim Stats:
+Hunger: 0
+Hygiene: 5
+Bladder: 2
+Energy: 6
+Social: 5
+Fun: 7
+Environment: 3
+Comfort: 5
+
+
+Press Enter to proceed or type 'quit' to end the chat:
+
+The Sim is using the fridge to grab something to eat.
+
+Sim Stats:
+Hunger: 8
+Hygiene: 5
+Bladder: 2
+Energy: 5
+Social: 5
+Fun: 7
+Environment: 3
+Comfort: 5
+
+
+The Sim is using the toilet.
+
+Sim Stats:
+Hunger: 8
+Hygiene: 5
+Bladder: 6
+Energy: 4
+Social: 5
+Fun: 7
+Environment: 3
+Comfort: 5
+
+
+The Sim is looking at the framed painting.
+
+Sim Stats:
+Hunger: 8
+Hygiene: 5
+Bladder: 6
+Energy: 3
+Social: 5
+Fun: 10
+Environment: 8
+Comfort: 5
+
+
+Press Enter to proceed or type 'quit' to end the chat:
