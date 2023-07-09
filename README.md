@@ -24,7 +24,7 @@ The script maintains a SimsJournal, which records the activities performed by th
 
 The script introduces a telephone call interaction where the Sim engages in a conversation with the user. This interaction utilizes OpenAI's to simulate a conversation. The Sim's current needs and activities for the day are included in the system message to provide context about the sims day.
 
-The unique logic implemented in the script enables the Sim to autonomously navigate the virtual world, fulfill their needs, and interact with the environment. The gradual reduction of needs, intelligent action selection, and journal tracking contribute to a dynamic and engaging gameplay experience.
+The logic implemented in the script enables the Sim to autonomously navigate the virtual world, fulfill their needs, and interact with the environment. The gradual reduction of needs, intelligent action selection, and journal tracking contribute to a dynamic and engaging gameplay experience.
 
 
 ## How to use
