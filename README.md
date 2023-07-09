@@ -4,23 +4,23 @@
 
 Teh Sims is a text-based simulation game where you observe a "Sim" and their actions as they fulfill their needs in a virtual room. The game provides a chat interface where you can follow the Sim's actions and end the chat when desired. The script approximates the seminal games AI to simulate the autonomous behavior of the Sim. Here are some key aspects of the logic used:
 
-**Sim Needs and Actions:**
+**Sim Needs and Actions**
 
 The Sim has various needs, including hunger, hygiene, bladder, energy, social, fun, environment, and comfort. Each need has a value between 0 and 10, representing the Sim's level of satisfaction. The script autonomously chooses actions for the Sim based on their needs. For example, if the Sim is hungry, they will use the fridge to grab something to eat, and if they need to socialize, they will make a phone call.
 
-**Reducing Needs:**
+**Reducing Needs**
 
 The script includes a mechanism to gradually reduce the Sim's needs over time. The reduce_needs() method is called periodically, randomly reducing the Sim's needs by a certain amount. This ensures that the Sim's needs are not constantly at their maximum value and creates a sense of progression in the game.
 
-**Choosing Actions:**
+**Choosing Actions**
 
 The Sim autonomously chooses actions based on their current needs. The choose_item() method selects an item or activity that corresponds to the Sim's most urgent need. However, if a need is already above a certain threshold (value 8 in the script), the Sim will re-evaluate their choice to avoid overindulging in a particular activity.
 
-**Journal and Mood Tracking:**
+**Journal and Mood Tracking**
 
 The script maintains a SimsJournal, which records the activities performed by the Sim throughout the game. Each day is represented by a dictionary entry, with activities and corresponding moods. The Sim's mood is calculated based on the total needs satisfaction, determining whether the Sim is happy or stressed.
 
-**Telephone Call Interaction:**
+**Telephone Call Interaction**
 
 The script introduces a telephone call interaction where the Sim engages in a conversation with the user. This interaction utilizes OpenAI's to simulate a conversation. The Sim's current needs and activities for the day are included in the system message to provide context about the sims day.
 
@@ -29,35 +29,35 @@ The logic implemented in the script enables the Sim to autonomously navigate the
 
 ## How to use
 
-**Setup:**
+**Setup**
 
 Ensure you have the necessary dependencies installed and set up your environment variables, particularly the `OPENAI_API_KEY` required for OpenAI API authentication.
 
-**Start the Game:**
+**Start the Game**
 
 Run the program and follow the on-screen instructions. You will be welcomed to Teh Sims and prompted to press Enter to start.
 
-**Chat Interface:**
+**Chat Interface**
 
 The game is played through a chat interface. You will see prompts and messages from the Sim and can observe their automatic actions.
 
-**Sim Needs:**
+**Sim Needs**
 
 The Sim has several needs that are automatically fulfilled. These needs include hunger, hygiene, bladder, energy, social, fun, environment, and comfort. Each need has a value between 0 and 10.
 
-**Sim Actions:**
+**Sim Actions**
 
 As you play, you can observe the Sim's actions as they autonomously choose different actions to fulfill their needs. For example, if the Sim is hungry, they will use the fridge to grab something to eat. Similarly, they will autonomously use the shower, toilet, bed, TV, couch, painting, or telephone to fulfill other needs.
 
-**Sim Stats:**
+**Sim Stats**
 
 After each interaction, the Sim's needs will be displayed, showing the current values for each need.
 
-**Reduce Needs:**
+**Reduce Needs**
 
 The Sim's needs will gradually decrease over time. You can observe how the Sim's actions affect their needs as the game progresses.
 
-**Ending the Game:**
+**Ending the Game**
 
 You can end the chat at any time by typing "quit" when prompted. The game will display the final Sim stats and end the chat.
 
