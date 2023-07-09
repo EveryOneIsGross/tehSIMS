@@ -20,7 +20,7 @@ The Sim autonomously chooses actions based on their current needs. The choose_it
 The unique logic implemented in the script enables the Sim to autonomously navigate the virtual world, fulfill their needs, and interact with the environment. The gradual reduction of needs, intelligent action selection, and journal tracking contribute to a dynamic and engaging gameplay experience.
 
 
-## How to Play
+## How to use
 
 **Setup:**
 Ensure you have the necessary dependencies installed and set up your environment variables, particularly the `OPENAI_API_KEY` required for OpenAI API authentication.
