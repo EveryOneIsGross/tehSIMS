@@ -274,7 +274,7 @@ class TelephoneCall:
 
 
     def extract_keywords(self):
-        vectorizer = TfidfVectorizer(tokenizer=lambda text: [word for word in word_tokenize(text) if len(word) > 2], stop_words=stopwords.words('english'))
+        vectorizer = TfidfVectorizer(tokenizer=lambda text: [word for word in word_tokenize(text) if len(word) > 5], stop_words=stopwords.words('english'))
         # Convert list of dictionaries to list of messages for TF-IDF transformation
         messages = [message["content"] for message in self.conversation]
         tfidf_matrix = vectorizer.fit_transform(messages)
@@ -334,7 +334,3 @@ def start_simulation():
 
 start_simulation()    
 
-# saves the telephone call to a json file at end of loop
-def save_conversation(self):
-        with open('conversation.json', 'w') as f:
-            json.dump(self.conversation, f, indent=4)
