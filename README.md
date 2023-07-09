@@ -5,17 +5,24 @@
 Teh Sims is a text-based simulation game where you observe a "Sim" and their actions as they fulfill their needs in a virtual room. The game provides a chat interface where you can follow the Sim's actions and end the chat when desired. The script approximates the seminal games AI to simulate the autonomous behavior of the Sim. Here are some key aspects of the logic used:
 
 **Sim Needs and Actions:**
+
 The Sim has various needs, including hunger, hygiene, bladder, energy, social, fun, environment, and comfort. Each need has a value between 0 and 10, representing the Sim's level of satisfaction. The script autonomously chooses actions for the Sim based on their needs. For example, if the Sim is hungry, they will use the fridge to grab something to eat, and if they need to socialize, they will make a phone call.
 
 **Reducing Needs:**
+
 The script includes a mechanism to gradually reduce the Sim's needs over time. The reduce_needs() method is called periodically, randomly reducing the Sim's needs by a certain amount. This ensures that the Sim's needs are not constantly at their maximum value and creates a sense of progression in the game.
 
 **Choosing Actions:**
+
 The Sim autonomously chooses actions based on their current needs. The choose_item() method selects an item or activity that corresponds to the Sim's most urgent need. However, if a need is already above a certain threshold (value 8 in the script), the Sim will re-evaluate their choice to avoid overindulging in a particular activity.
 
-**Journal and Mood Tracking:** The script maintains a SimsJournal, which records the activities performed by the Sim throughout the game. Each day is represented by a dictionary entry, with activities and corresponding moods. The Sim's mood is calculated based on the total needs satisfaction, determining whether the Sim is happy or stressed.
+**Journal and Mood Tracking:**
 
-**Telephone Call Interaction:** The script introduces a telephone call interaction where the Sim engages in a conversation with the user. This interaction utilizes OpenAI's GPT-3.5-turbo model to simulate a conversation. The Sim's current needs and activities for the day are included in the system message to provide context about the sims day.
+The script maintains a SimsJournal, which records the activities performed by the Sim throughout the game. Each day is represented by a dictionary entry, with activities and corresponding moods. The Sim's mood is calculated based on the total needs satisfaction, determining whether the Sim is happy or stressed.
+
+**Telephone Call Interaction:**
+
+The script introduces a telephone call interaction where the Sim engages in a conversation with the user. This interaction utilizes OpenAI's to simulate a conversation. The Sim's current needs and activities for the day are included in the system message to provide context about the sims day.
 
 The unique logic implemented in the script enables the Sim to autonomously navigate the virtual world, fulfill their needs, and interact with the environment. The gradual reduction of needs, intelligent action selection, and journal tracking contribute to a dynamic and engaging gameplay experience.
 
@@ -23,27 +30,35 @@ The unique logic implemented in the script enables the Sim to autonomously navig
 ## How to use
 
 **Setup:**
+
 Ensure you have the necessary dependencies installed and set up your environment variables, particularly the `OPENAI_API_KEY` required for OpenAI API authentication.
 
 **Start the Game:**
+
 Run the program and follow the on-screen instructions. You will be welcomed to Teh Sims and prompted to press Enter to start.
 
 **Chat Interface:**
+
 The game is played through a chat interface. You will see prompts and messages from the Sim and can observe their automatic actions.
 
 **Sim Needs:**
+
 The Sim has several needs that are automatically fulfilled. These needs include hunger, hygiene, bladder, energy, social, fun, environment, and comfort. Each need has a value between 0 and 10.
 
 **Sim Actions:**
+
 As you play, you can observe the Sim's actions as they autonomously choose different actions to fulfill their needs. For example, if the Sim is hungry, they will use the fridge to grab something to eat. Similarly, they will autonomously use the shower, toilet, bed, TV, couch, painting, or telephone to fulfill other needs.
 
 **Sim Stats:**
+
 After each interaction, the Sim's needs will be displayed, showing the current values for each need.
 
 **Reduce Needs:**
+
 The Sim's needs will gradually decrease over time. You can observe how the Sim's actions affect their needs as the game progresses.
 
 **Ending the Game:**
+
 You can end the chat at any time by typing "quit" when prompted. The game will display the final Sim stats and end the chat.
 
 ## Thoughts on Extended Mind Theory:
@@ -51,6 +66,7 @@ You can end the chat at any time by typing "quit" when prompted. The game will d
 teh philosophical implementation of simulated characters with externalized reasoning for their needs lead to considering how this aligns with the concept of the extended mind. An idea that suggests cognitive processes can extend beyond an individual's brain and incorporate external tools or objects. In teh Sims the Sim's needs and actions are represented through the interaction with various objects in the simulated environment. 🧐
 
 Key Points:
+
 1. Extended Mind: The Sim's needs, such as hunger, hygiene, or energy, are externalized and represented by the interactions with objects like the fridge, shower, or bed. This mirrors the idea of the extended mind where external resources become part of an individual's cognitive processes.
 
 2. Coupling with External Resources: The Sim's interaction with external objects demonstrates the coupling between internal cognitive processes and external tools. For example, using the fridge satisfies the hunger need, while using the bed replenishes energy. These external resources act as cognitive props and contribute to the Sim's overall well-being.
