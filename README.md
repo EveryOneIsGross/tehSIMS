@@ -77,7 +77,9 @@ Key Points:
     
     ✅ Added conversation history with sentiment recorded for future use
     
-    ❌ Caching and keyword extraction WIP
+    ✅ Added keyword extraction
+    
+    ❌ Caching for stored responses that match keyword exctraction
     
     ❌ Create a gradio interface that also tracks what the sim is doing using my gif_avatar method.
 
